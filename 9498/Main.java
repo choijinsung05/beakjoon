@@ -5,6 +5,12 @@ public class Main{
     
     int score = sc.nextInt();
     
+    System.out.println(score >= 90 ? "A" : 
+                        score>=80? "B":
+                        score>=70? "C":
+                        score>=60? "D":
+                        "F");
+    /*
     if (score >= 90){
       System.out.println("A");
     }else if (score >= 80){
@@ -16,6 +22,7 @@ public class Main{
     }else{
       System.out.println("F");
     }
+    */
     sc.close();
   }
 }
